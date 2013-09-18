@@ -16,7 +16,7 @@
   <scm>
     <connection>scm:git:git://github.com//.git</connection>
     <developerConnection>scm:git:ssh://git@github.com//.git</developerConnection>
-    <tag>20c582a9d7984327074c3181ad89d425307bb0c0</tag>
+    <tag>ba5787b5fff4ae247bd158b0de09d12d4875660c</tag>
     <url>https://github.com//</url>
   </scm>
   <build>
@@ -83,14 +83,14 @@
   </repositories>
   <dependencies>
     <dependency>
-      <groupId>org.functionaljava</groupId>
-      <artifactId>functionaljava</artifactId>
-      <version>3.1</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jedi</groupId>
+      <artifactId>jedi-core</artifactId>
+      <version>3.0.5</version>
     </dependency>
     <dependency>
       <groupId>org.clojure</groupId>
