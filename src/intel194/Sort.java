@@ -1,5 +1,6 @@
 package intel194;
 
+import static java.lang.System.out;
 import static jedi.functional.Comparables.sort;
 import static jedi.functional.FunctionalPrimitives.listTabulate;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
@@ -22,7 +23,7 @@ public class Sort {
     }
 
     public static void main(String[] args) {
-        System.out.println(sort(listTabulate(ELEMENTS, new DynamicFunctor(Sort.class, "randomString"))));
-        System.out.println(sort(listTabulate(ELEMENTS, new DynamicFunctor(Sort.class, "randomDouble"))));
+        out.println(sort(listTabulate(ELEMENTS, new DynamicFunctor(Sort.class, "randomString"))));
+        out.println(sort(listTabulate(ELEMENTS, new DynamicFunctor(Sort.class, "randomDouble"))));
     }
 }
