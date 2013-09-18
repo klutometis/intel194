@@ -1,7 +1,7 @@
 package intel194;
 
-import static jedi.functional.FunctionalPrimitives.listTabulate;
 import static jedi.functional.Comparables.sort;
+import static jedi.functional.FunctionalPrimitives.listTabulate;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
 import java.util.Random;
