@@ -1,5 +1,6 @@
 See the [[https://jira.truecarcorp.com/browse/INTEL-194][ticket]]; run with e.g.:
 
 #+BEGIN_SRC sh
-  mvn -q exec:java -Dexec.mainClass="intel194.Hello"
+  mvn install
+  mvn exec:java -Dexec.mainClass="intel194.Hello"
 #+END_SRC
