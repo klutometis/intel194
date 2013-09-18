@@ -1,6 +1,6 @@
 package intel194;
 
-public class Hello {
+class Hello {
     public static void main(String[] args) {
         System.out.println("Hallo, Welt!");
     }
