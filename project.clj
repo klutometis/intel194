@@ -8,5 +8,4 @@
   :java-source-paths ["src"]
   ;; So things like `mvn exec:java -Dexec.mainClass=intel194.Hello'
   ;; will work; deposits pom.xml in the current dir.
-  :target-path ""
   :main intel194.Sort)
